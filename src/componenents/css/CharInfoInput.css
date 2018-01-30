@@ -1,0 +1,15 @@
+.char-info-input {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.char-info-input input {
+  border: none;
+  border-bottom: solid black 1px;
+  font-size: 30px;
+}
+
+.char-info-input input {
+  width: 100%;
+}
