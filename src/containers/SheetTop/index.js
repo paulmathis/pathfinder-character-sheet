@@ -7,13 +7,13 @@ import './css/index.css';
 const SheetTop = () => {
   return (
     <div className="row">
-      <div className="col-xs-5">
+      <div className="col-xs-40">
         <div className="logo-container">
           <Image src={Logo} alt="Pathfinder Logo" />
           <h1>Character Sheet</h1>
         </div>
       </div>
-      <CharInfo className="col-xs-7" />
+      <CharInfo className="col-xs-60" />
     </div>
   );
 };

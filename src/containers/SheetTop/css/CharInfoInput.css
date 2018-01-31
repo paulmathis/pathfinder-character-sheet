@@ -1,12 +1,18 @@
 .char-info-input {
   display: flex;
   flex-direction: column;
-  margin-right: 10px;
+  margin-right: 22px;
 }
 
 .char-info-input input {
   border: none;
   border-bottom: solid black 1px;
-  font-size: 1.7em;
+  font-size: 1.7rem;
+  height: 26px;
   width: 100%;
+}
+
+.char-info-input label {
+  font-size: 1.2rem;
+  line-height: 1.2;
 }
