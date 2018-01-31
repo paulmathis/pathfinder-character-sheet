@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'flexboxgrid';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import 'flexboxgrid';
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();

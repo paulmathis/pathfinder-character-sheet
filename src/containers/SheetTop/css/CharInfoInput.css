@@ -7,9 +7,6 @@
 .char-info-input input {
   border: none;
   border-bottom: solid black 1px;
-  font-size: 30px;
-}
-
-.char-info-input input {
+  font-size: 1.7em;
   width: 100%;
 }

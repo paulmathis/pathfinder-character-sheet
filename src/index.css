@@ -1,5 +1,35 @@
 body {
   margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  padding: 30px 50px 0 50px;
+  font-family: 'Playfair Display SC', serif;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Flexboxgrid Overrides */
+
+.row {
+  margin: 0;
+}
+
+.col-xs-45,
+.col-xs-55 {
+  box-sizing: border-box;
+  -ms-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.col-xs-45 {
+  -ms-flex-preferred-size: 45%;
+  flex-basis: 45%;
+  max-width: 45%;
+}
+
+.col-xs-55 {
+  -ms-flex-preferred-size: 55%;
+  flex-basis: 55%;
+  max-width: 55%;
 }
