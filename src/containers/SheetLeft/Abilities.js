@@ -4,6 +4,7 @@ import AbilityRow from './AbilityRow';
 const Abilities = () => {
   return (
     <div>
+      Ability Name
       <AbilityRow name="Strength" />
       <AbilityRow name="Dexterity" />
       <AbilityRow name="Consitution" />

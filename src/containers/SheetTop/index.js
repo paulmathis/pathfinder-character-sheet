@@ -6,7 +6,7 @@ import './css/index.css';
 
 const SheetTop = () => {
   return (
-    <div className="row">
+    <div className="row sheet-top">
       <div className="col-xs-40">
         <div className="logo-container">
           <Image src={Logo} alt="Pathfinder Logo" />

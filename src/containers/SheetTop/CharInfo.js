@@ -3,7 +3,7 @@ import CharInfoInput from './CharInfoInput';
 
 const CharInfo = props => {
   return (
-    <div style={{ marginTop: '29px' }} className={`${props.className} char-info`}>
+    <div style={{ marginTop: '38px' }} className={`${props.className} char-info`}>
       <div className="row">
         <div className="col-xs-55 row">
           <div className="col-xs-73">

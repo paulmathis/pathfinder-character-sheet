@@ -8,11 +8,11 @@
   border: none;
   border-bottom: solid black 1px;
   font-size: 1.7rem;
-  height: 26px;
+  height: 31px;
   width: 100%;
 }
 
 .char-info-input label {
-  font-size: 1.2rem;
-  line-height: 1.2;
+  font-size: 1.5rem;
+  line-height: 1.4;
 }
